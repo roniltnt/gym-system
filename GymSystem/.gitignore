@@ -1,0 +1,31 @@
+# Build output
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled binaries and objects
+*.o
+*.out
+*.exe
+*.app
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+
+# macOS
+.DS_Store
+
+# Keep build directory tracked but empty
+!build/.gitkeep
